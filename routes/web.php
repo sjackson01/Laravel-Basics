@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/tracks', function () {
+    return view('welcome');
+});
+
+Route::get('/community', function () {
+    return view('welcome');
+});
+
+Route::get('/support', function () {
+    return view('welcome');
+});
